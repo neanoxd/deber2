@@ -1,0 +1,13 @@
+a) Al llamar a la funcion libre y el método de la clase, ambas nos devuelven el mismo valor;
+   la diferencia recae en el hecho de que al volver a llamar a la funcion libre, tenemos que 
+   volver a especificar el parametro con el que se trabajará, mientras que el método no
+   necesita el parámetro. En el método podemos saber con cuál valor trabajamos para la función,
+   mientras que en la función libre solo nos devuelve el dato y no podemos saber directamente
+   con que valor se realizó la función.
+
+b) En mi opinión, si trabajamos solo con 1 o 2 función, el trabajar con función libre me parece 
+   más fácil ya que no tenemos que declarar cada objeto para trabajar con el una sola vez y 
+   maneja mejor la memoria. Si tenemos que reutilizar los datos para distintas funciones, ahí 
+   pienso que el trabajar con objetos da mejor orden.
+
+c) Tienes que pasarle el argumento a cada una de las funciones con las que se trabajará.

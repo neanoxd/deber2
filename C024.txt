@@ -1,0 +1,22 @@
+a) Todos los atributos deberían de ser private para que asi no existan objetos con 
+   atributos invalidos.
+b) No existe validacion alguna en el codigo. Si s = -5000, el salario ahora es -5000.
+c) Si debería de ser para que el método no modifique el valor de salario y solo lo devuelva.
+d) La contraseña no deberia de tener getter, ya que si tiene una funcion getter entonces
+   se pierde la privacidad que proporciona una. Tampoco deberia de tener un setter, ya que
+   entonces cualquier persona podría modificar el valor. Con el constructor debería de
+   ser suficiente. 
+
+class Empleado {
+private:
+  string nombre, contraseña; int edad; double salario;
+
+public:
+  Empleado(string n, string c, int e, double s) : nombre(n), contraseña(c), edad(e), salario(s) {}
+
+  void setSalario(double s) {
+    if (salario >= 0) salario = 0;
+  }
+
+  double getSalario() const { return salario; }
+};
