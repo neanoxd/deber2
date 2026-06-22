@@ -1,4 +1,0 @@
-a) La version A no usa override, mientras que la B si. Override obliga al compilador a verificar que el metodo realmente sobrescribe uno de la clase base
-b) D daria error porque el metodo se llama hacerSonidos (con s), y no existe en la clase base un metodo virtual con esa firma exacta para sobrescribir
-c) No es necesario repetir virtual en la version C, pero puede incluirse por claridad
-

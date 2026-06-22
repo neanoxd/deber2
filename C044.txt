@@ -1,7 +1,0 @@
-a) Imprime:
-    Base creada
-    Derivada creada
-    Base destruida
-b) El destructor de Derivada NO se llama. La consecuencia es que cualquier memoria dinámica reservada por Derivada quedará ocupada causando un memory leak
-c) Agregar la palabra 'virtual' al destructor de la clase Base: virtual ~Base()
-
