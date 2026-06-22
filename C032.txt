@@ -1,0 +1,6 @@
+a) Si compila ya que si puede acceder al valor de area y modificarlo.
+b) No, ya que "tipo" es private, no tiene acceso para ver lo que hay ni modificarlo.
+c) Si, ya que el metodo esta disponible para la clase Cuadrado.
+d) No, ya que "tipo" es private.
+e) No, Ya que main no es parte de la familia y el atributo es protected.
+f) Si, ya que el metodo es publico.
