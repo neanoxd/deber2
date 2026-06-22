@@ -1,0 +1,4 @@
+1. Base\n
+   Sin virtual, se hace binding estático. p1 es de tipo Base*, así que se llama Base::mostrar()
+2. DerivadaV
+   Con virtual, se hace binding dinámico. p2 apunta a un objeto DerivadaV, así que se llama DerivadaV::mostrar()

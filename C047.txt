@@ -1,0 +1,6 @@
+Linea 1: B::f
+Linea 2: A::g
+Linea 3: C::f
+Linea 4: A::g
+Linea 5: C::f
+Linea 6: B::g
